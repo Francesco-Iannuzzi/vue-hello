@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body
+        {
+            background-color: #c3dee9;
+        }
+
+        #greeting
+        {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding: 5rem;
+        }
+
+        #greeting > h1
+        {
+            color: #262124;
+        }
+
+        #greetin > img
+        {
+            max-width: 100%;
+        }
+
+    </style>
     <title>Vue Hello</title>
 </head>
 <body>
 
-    <h1 id="greeting">{{ message }}</h1>
+    <div id="greeting">
+        <h1>{{ message }}</h1>
+        <img v-bind:src="image" alt="" srcset="">
+    </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- /vue script -->
