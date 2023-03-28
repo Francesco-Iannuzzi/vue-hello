@@ -9,7 +9,6 @@ Aggiungere alla pagina un’immagine, presa anch’essa da un data. ✓
 */
 
 
-
 const { createApp } = Vue
 
 createApp({
@@ -20,4 +19,3 @@ createApp({
         }
     }
 }).mount('#greeting')
-
