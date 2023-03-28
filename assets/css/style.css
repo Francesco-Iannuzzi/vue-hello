@@ -1,0 +1,24 @@
+body
+{
+    background-color: #c3dee9;
+    font-family: 'Tillana', cursive;
+}
+
+#app
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 5rem;
+}
+
+#app > h1
+{
+    font-size: 3rem;
+    color: #262124;
+}
+
+#app > img
+{
+    max-width: 100%;
+}

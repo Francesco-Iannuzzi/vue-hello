@@ -18,4 +18,4 @@ createApp({
             image: 'https://i.pinimg.com/originals/47/83/a6/4783a6a0f05ad0b11dc994aada6defb5.jpg',
         }
     }
-}).mount('#greeting')
+}).mount('#app')
